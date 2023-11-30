@@ -9,6 +9,7 @@ export const counterReducer = (state = initialState, action) => {
             ...state, 
          value: state.value + 1
         }
+        
     case 'counter/decrement': 
         return {
             ...state, 
