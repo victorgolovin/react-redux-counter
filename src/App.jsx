@@ -23,7 +23,6 @@ const App = () => {
         <p>{counter}</p>
         <button onClick={handleIncrementBtnClick}>+1</button>
         <button onClick={handleDecrementBtnClick}>-1</button>
-        <div></div>
       </div>
   )
 }
