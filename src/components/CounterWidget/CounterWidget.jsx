@@ -9,6 +9,7 @@ export const CounterWidget = ({
           <button onClick={onIncrementBtnClick}>+1</button>
           <button onClick={onDecrementBtnClick}>-1</button>
           <button>Reset</button>
+          <div></div>
         </div>
     )
 }
